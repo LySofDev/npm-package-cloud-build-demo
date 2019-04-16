@@ -1,0 +1,24 @@
+{
+  "name": "npcbd-hello-world",
+  "version": "0.0.1",
+  "description": "A simple Hello World package.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LySofDev/npm-package-cloud-build-demo.git"
+  },
+  "author": "Esteban Hernandez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LySofDev/npm-package-cloud-build-demo/issues"
+  },
+  "homepage": "https://github.com/LySofDev/npm-package-cloud-build-demo#readme",
+  "devDependencies": {
+    "jest": "^24.7.1",
+    "nodemon": "^1.18.11"
+  }
+}

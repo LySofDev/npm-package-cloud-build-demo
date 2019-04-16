@@ -1,0 +1,9 @@
+version: '3.2'
+
+services:
+
+  node:
+    image: node:11.14.0-alpine
+    volumes:
+      - .:/mnt
+    working_dir: /mnt
